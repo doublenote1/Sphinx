@@ -1,20 +1,19 @@
-.. Sphinx documentation master file, created by
-   sphinx-quickstart on Thu May 28 16:20:21 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Sphinx's documentation!
-==================================
+# index.rst
+Welcome to test_document's documentation!
+=========================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: OverView
+   :numbered:
 
+   /test/test1
+   /test/test2
 
+.. toctree::
+   :maxdepth: 2
+   :caption: test3だけ
+   :numbered:
 
-Indices and tables
-==================
+   /test/test3
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
